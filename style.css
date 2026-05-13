@@ -18,7 +18,7 @@ body {
 }
 
 .image {
-    width: 500px;
+    width: 600px;
     height: 100vh;
 }
 
@@ -42,6 +42,12 @@ body {
 
 .signup-info {
     width: 100%;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-right: 20px;
     border-bottom: 1px solid #e0e0e0;
 }
 
