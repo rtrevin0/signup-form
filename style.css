@@ -43,25 +43,19 @@ body {
 .signup-info {
     width: 100%;
     font-size: 1.5em;
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     border-bottom: 1px solid #e0e0e0;
 }
 
 .signup-form {
-    width: 100%;
-    border-bottom: 1px solid #e0e0e0;
-}
-
-.signup-form form {
     display: flex;
     flex-direction: column;
     gap: 15px;
     width: 100%;
-    max-width: 400px;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 .signup-form form input,
@@ -71,8 +65,27 @@ body {
     box-sizing: border-box;
 }
 
-.login-link {
+.signup-form label, input {
+    display: block;
+}
+
+.signup-form-input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.signup-form-row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.signup-form-row input {
     flex: 1;
+}
+
+.login-link {
     width: 100%;
 }
 

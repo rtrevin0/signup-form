@@ -18,18 +18,36 @@
                 <p>You <i>know</i> you want to.</p>
             </div>
             <form class="signup-form">
-                <label for="firstName">First Name</label>
-                <input type="text" name="firstName" required>
-                <label for="lastName">Last Name</label>
-                <input type="text" name="lastName" required>
-                <label for="email">Email</label>
-                <input type="email" placeholder="Email" name="email" required>
-                <label for="phoneNumber">Phone Number</label>
-                <input type="text" name="phoneNumber" required>
-                <label for="password">Password</label>
-                <input type="password" placeholder="Password" name="password" required>
-                <label for="confirmPassword">Confirm Password</label>
-                <input type="password" name="confirmPassword" required>
+                <div class="signup-form-row">
+                    <div class="signup-form-input-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" required>
+                    </div>
+                    <div class="signup-form-input-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" required>
+                    </div>
+                </div>
+                <div class="signup-form-row">
+                    <div class="signup-form-input-group">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Email" name="email" required>
+                    </div>   
+                    <div class="signup-form-input-group">
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="text" name="phoneNumber" required>
+                    </div>
+                </div>
+                <div class="signup-form-row">
+                    <div class="signup-form-input-group">
+                        <label for="password">Password</label>
+                        <input type="password" placeholder="Password" name="password" required>
+                    </div>
+                    <div class="signup-form-input-group">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" placeholder="Confirm Password" name="confirmPassword" required>
+                    </div>
+                </div>           
                 <button type="submit">Create Account</button>
             </form>
             <span class="login-link">Already have an account? <a href="#">Log in</a></span>
