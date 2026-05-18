@@ -47,15 +47,6 @@ body {
     align-items: flex-start;
     padding-left: 40px;
     padding-right: 40px;
-    border-bottom: 1px solid #e0e0e0;
-}
-
-.signup-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    width: 100%;
-    border-bottom: 1px solid #e0e0e0;
 }
 
 .signup-form form input,
@@ -83,6 +74,17 @@ body {
 
 .signup-form-row input {
     flex: 1;
+}
+
+.signup-form-textboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    box-shadow: 2px 2px 2px -2px rgb(0 0 0 / 20%);
 }
 
 .login-link {
