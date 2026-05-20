@@ -88,9 +88,8 @@ body {
     width: 100%;
     align-items: center;
     padding: 30px;
-    width: 100%;
-    box-shadow: 0 -8px 8px -8px rgba(0, 0, 0, 0.5),
-                0 8px 8px -8px rgba(0, 0, 0, 0.5);
+    border-top: 1px solid #e0e0e0;
+    box-shadow: 0 8px 8px -8px rgba(0, 0, 0, 0.5);
 }
 
 .signup-form button {
