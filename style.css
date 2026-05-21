@@ -84,10 +84,10 @@ body {
 .signup-form-textboxes {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
+    padding: 10px 0;
     width: 100%;
     align-items: center;
-    padding: 30px;
     border-top: 1px solid #e0e0e0;
     box-shadow: 0 8px 8px -8px rgba(0, 0, 0, 0.5);
 }
