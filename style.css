@@ -27,11 +27,15 @@ body {
     flex-direction: column;
     flex: 1; /* Add this to make content take remaining space */
     min-height: 100vh; /* Ensure it takes full viewport height */
+    background-color: #f9fafb;
 }
 
 .signup-form {
     display: flex;
     flex-direction: column;
+    background-color: white;
+    box-shadow: 0 8px 8px -8px rgba(0, 0, 0, 0.5);
+    border-top: 1px solid #e0e0e0;
 }
 
 .signup-info,
@@ -68,7 +72,7 @@ body {
 .signup-form-input-group {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    /* gap: 5px; */
 }
 
 .signup-form-row {
@@ -88,8 +92,15 @@ body {
     padding: 10px 0;
     width: 100%;
     align-items: center;
-    border-top: 1px solid #e0e0e0;
-    box-shadow: 0 8px 8px -8px rgba(0, 0, 0, 0.5);
+}
+
+.signup-text {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: left;
 }
 
 .signup-form button {
