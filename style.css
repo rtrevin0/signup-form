@@ -35,17 +35,20 @@ body {
     flex-direction: column;
     background-color: white;
     box-shadow: 0 8px 8px -8px rgba(0, 0, 0, 0.5);
-
+    flex: 0.5;
 }
 
-.signup-text,
-.signup-form,
-.login-link {
-    flex: 1; /* Each takes equal space */
+.divider {
+    display: flex;
+    flex: 1.5;
+}
+
+.divider,
+.signup-form {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    /* padding: 20px; */
     box-sizing: border-box;
 }
 
@@ -78,7 +81,7 @@ body {
 .signup-form-row {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    /* gap: 10px; */
 }
 
 .signup-form-row input {
@@ -88,8 +91,8 @@ body {
 .signup-form-textboxes {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 10px 0;
+    /* gap: 20px; */
+    /* padding: 10px 0; */
     width: 100%;
     align-items: center;
 }
