@@ -37,34 +37,35 @@ body {
 .content {
     display: flex;
     flex-direction: column;
-    flex: 1; /* Add this to make content take remaining space */
-    min-height: 100vh; /* Ensure it takes full viewport height */
+    flex: 1; 
+    min-height: 100vh; 
     background-color: #f9fafb;
+    padding: 40px 0;
+    justify-content: center;
+    gap: 30px;
 }
 
 .signup-text {
-    max-width: 400px;
+    max-width: 625px;
     display: flex;
-    flex: 1.2;
     flex-direction: column;
-    gap: 10px;
     align-items: left;
     text-align: left;
 }
 
 .signup-description {
-    font-size: 1.4em;
-    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-family: 'Segoe UI', Arial, sans-serif;
     color: black;
     font-weight: 500;
 }
 
 .signup-form-container {
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex: 1.2;
 }
 
 .signup-form {
@@ -86,7 +87,7 @@ body {
 
 .login-link-container {
     display: flex;
-    flex: 1.2;
+    justify-content: center;
 }
 
 .divider,
@@ -124,6 +125,10 @@ body {
     gap: 5px;
 }
 
+.signup-form-input-group label {
+    text-transform: uppercase;
+}
+
 .signup-form-row {
     display: flex;
     flex-direction: row;
@@ -141,6 +146,9 @@ body {
     /* gap: 30px; */
     width: 100%;
     box-shadow: 0 8px 8px -8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
 }
 
 .signup-form button {
